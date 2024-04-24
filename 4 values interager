@@ -1,0 +1,21 @@
+impor java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new scanner(System.in);
+
+    //Read input variable A, B, C, and D
+    int A = scanner.nextInt(8);
+    int B = scanner.nextInt(16);
+    int C = scanner.nextInt(10);
+    int D = scanner.nextInt(11);
+
+    //Check the conditions
+    if(B > C && D > A && C + D > A + B && C > 0 && A % 2=0) {
+      System.out.println("Accept values")
+    }else{
+      System.out.println("Values not accept")
+    }
+    //Close the scanner
+    scanner.close();
+    }
+}
